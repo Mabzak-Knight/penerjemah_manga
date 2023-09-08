@@ -60,9 +60,11 @@
         <div class="preview-container">
         <div class="rounded border" align="center" style="min-height: 300px;">
           <div id="hint2" class="text-info"  align="center"><br>Belum ada<br>Proses</div>
-          <img id="preview-image" />        
-          <div id="result-container"></div> <!-- Wadah untuk menampilkan hasil dari server -->
-        </div>      
+          <img id="preview-image" />       
+        </div>  
+          <div class="rounded border mt-3 card-header" style="min-height: 50px;">
+            <div id="result-container"></div> <!-- Wadah untuk menampilkan hasil dari server -->
+          </div>     
         </div>
 
       </div>
@@ -118,7 +120,7 @@
       
       
     </div>
-    <div style="color: white; margin-top: 830px; color: #ccc;" align="center"> Dibuat oleh Al Khoir, Di dukung @ruangilmuditial.com</div>
+    <div style="color: white; margin-top: 880px; color: #ccc;" align="center"> Dibuat oleh Al Khoir, Di dukung @ruangilmuditial.com</div>
     <!-- Script -->
     <script type="text/javascript">
 
@@ -251,7 +253,7 @@ function sendData() {
     // Tambahkan hasil pemotongan sebagai file ke FormData
     formData.append('data', blob, 'cropped_image.png');
 
-    fetch('https://fec1-34-83-53-118.ngrok-free.app/process_data', {
+    fetch('https://b15e-34-125-52-241.ngrok-free.app/process_data', {
         method: 'POST',
         body: formData
     })
