@@ -16,7 +16,8 @@
     />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <!--<link rel="stylesheet" href="style.css" />-->
+    <link rel="stylesheet" href="https://ruangilmudigital.com/ai/manga_tl/style.css" />
   </head>
   <body>
 
@@ -253,7 +254,7 @@ function sendData() {
     // Tambahkan hasil pemotongan sebagai file ke FormData
     formData.append('data', blob, 'cropped_image.png');
 
-    fetch('https://b15e-34-125-52-241.ngrok-free.app/process_data', {
+    fetch('/process_data', {
         method: 'POST',
         body: formData
     })
