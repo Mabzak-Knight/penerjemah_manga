@@ -1,5 +1,5 @@
 # Penerjemah Manga Berbasis Website
-Aplikasi Penerjemah Manga ini menggunakan manga-ocr dan comic-text-detector, lihat refrensi
+Aplikasi Penerjemah Manga ini pada Versi 1.1 pengguna dapat menerjemahkan ballon text dengan cara menseleksinya lalu memotongnya, hasil potongan akan diolah dengan manga-ocr dan terjemahan google, lalu di tampilkan pada hasil di website seperti di gambar
 
 ![image](https://github.com/Mabzak-Knight/penerjemah_manga/assets/56875726/9754e15c-b1c9-4ddc-9014-59ce17e6901a)
 
