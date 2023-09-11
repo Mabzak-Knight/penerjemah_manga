@@ -1,6 +1,8 @@
 # Penerjemah Manga Berbasis Website
 Aplikasi Penerjemah Manga ini menggunakan manga-ocr dan comic-text-detector, lihat refrensi
 
+![image](https://github.com/Mabzak-Knight/penerjemah_manga/assets/56875726/9754e15c-b1c9-4ddc-9014-59ce17e6901a)
+
 # Perhatian:
 Bagian ini masih dalam pengembangan lebih lanjut, akan ada kemungkinan error saat anda menjalankanya sekarang.
 untuk penggunaan siap pakai silahkan gunakan [Penerjemah dengan selector manual v.1.1](https://github.com/Mabzak-Knight/penerjemah_manga/tree/Penerjemah-dengan-selector-manual-v.1.1)
