@@ -1,3 +1,5 @@
+PERHATIAN!! Repositori pindah ke sini: https://github.com/Mabzak-Knight/NyanTranslate
+
 # Penerjemah Manga Berbasis Website
 Aplikasi Penerjemah Manga ini pada Versi 1.1 pengguna dapat menerjemahkan ballon text dengan cara menseleksinya lalu memotongnya, hasil potongan akan diolah dengan manga-ocr dan terjemahan google, lalu di tampilkan pada hasil di website seperti di gambar
 
